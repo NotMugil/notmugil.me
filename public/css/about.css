@@ -1,0 +1,279 @@
+:root{
+  font-family: 'Satoshi', sans-serif;
+  font-size: 18px;
+  color: var(--primary-black);
+  --primary-black: #000;
+  --primary-white: #fff;
+  --secondary-black: rgba(0, 0, 0, 0.5);
+  --secondary-white: #fafafa;
+  --accent-color: #73777B;
+}
+
+#main{
+  display: block;
+  margin: 5rem 5rem 3rem 5rem;
+}
+
+h1,h2,h3{
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  color: var(--primary-black);
+
+}
+
+p{
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  color: var(--primary-black);
+}
+
+.Fraunces{
+  font-family: 'Fraunces', serif;
+}
+
+.Satoshi{
+  font-family: 'Satoshi', sans-serif;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0.5rem;
+  align-items: center;
+}
+
+.head > p{
+  color: var(--accent-color);
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem 0.5rem;
+}
+
+.body > p{
+  color: var(--accent-color);
+  width: 90%;
+}
+
+.body-img > img{
+  height: 180px;
+  border-radius: 0.2rem;
+  
+}
+
+.fav-body{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.2rem 0.5rem;
+}
+
+.body-text{
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.3rem;
+  padding-bottom: 0.2rem;
+}
+
+.main-body-text{
+  font-family: 'Satoshi', sans-serif;
+  text-align: right;
+  color: var(--primary-black);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.sub-body-text{
+  color: var(--secondary-black);
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.image-head-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-head{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 0.3rem 0.5rem;
+  align-items: center;
+}
+
+.image-head > p{
+  color: var(--accent-color);
+}
+
+.image-sub-head > p {
+  color: var(--accent-color);
+  font-weight: 00;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.image-main-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-body > img{
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  border-radius: 0.2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: var(--secondary-white);
+  color: white;
+  height: 15rem;
+  border-radius: 4px;
+}
+
+.card:hover{
+  box-shadow: 0 0 0.4rem rgba(131, 128, 128, 0.3); 
+}
+
+.card:hover .body-img > img{
+  transform: rotate(3deg);
+  margin-bottom: 0.4rem;
+  box-shadow: 10px 10px 20px 0 rgba(0,0,0,.1);
+  transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.card:hover .body-text{
+  margin-bottom: 0.5rem;
+  transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.navbar {
+  width: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  margin-left: 25%;
+  border-radius: 25px;
+}
+
+.navbar a {
+  font-weight: 500;
+
+    text-decoration: none;
+    color: #333;
+    margin: 0 1px;
+    padding: 0.5rem;
+    transition: outline 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #fafafa;
+    border-radius: 5px;
+    border-bottom: 2px solid #ffc107;
+    transition: border-bottom 0.3s ease;
+    transition: border-bottom 0.3s ease;
+}
+
+.navbar a.active{
+  background-color: #fafafa;
+  border-radius: 5px;
+  border-bottom: 2px solid #ffc107;
+  transition: border-bottom 0.3s ease;
+}
+
+
+.logo-sec{
+  display: flex;
+  flex-direction: column;
+  padding-left: 16vw;
+}
+
+.logo-sec img{
+  width: 10vw;
+}
+
+.logo-sec > h1 {
+  font-size: 4rem;
+}
+
+.logo-sec > p {
+  padding-bottom: 2rem;
+}
+
+@media (max-device-width: 480px) {
+  #main{
+    font-size: 16px;
+    margin: 1em;
+  }
+
+  
+.logo-sec > h1 {
+  font-size: 2em;
+}
+
+.logo-sec{
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+}
+
+.logo-sec img {
+  width: 25vw;
+}
+
+  
+.navbar a {
+  display: inline-flex;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #333;
+  align-items: center;
+  margin: 0;
+  padding: 0.5em;
+  transition: outline 0.3s ease;
+}
+
+.navbar {
+  display: flex;
+  row-gap: 2px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  margin: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navbar a:hover {
+  background-color: #fafafa;
+  border-radius: 5px;
+  border-bottom: 2px solid #ffc107;
+  transition: border-bottom 0.3s ease;
+}
+
+}
