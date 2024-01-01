@@ -1,4 +1,4 @@
-<div class="flex flex-col max-w-screen-md justify-center mx-auto font-inter">
+
 
     <!--HEADER   
     <div class="header ">
@@ -45,5 +45,3 @@
         </div>
 
     </div>
-
-  </div>

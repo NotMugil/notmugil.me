@@ -4,6 +4,9 @@
   import Footer from '$lib/components/footer/footer.svelte'
 </script>
 
-<Nav/>
-<slot />
-<Footer/>
+<div class="flex flex-col max-w-screen-md justify-center mx-auto font-inter">
+  <Nav/>
+  <slot />
+  <Footer/>
+</div>
+
