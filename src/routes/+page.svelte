@@ -1,14 +1,5 @@
 <div class="flex flex-col max-w-screen-md justify-center mx-auto font-inter">
-    <div class="m-4 fixed bottom-12 text-sm md:text-base md:top-4 z-10">
-      <ul class="navbar flex flex-row fixed left-1/2 transform -translate-x-1/2 bg-opacity-80 gap-4 md:gap-6 bg-[#fefffe] backdrop-blur-lg border border-gray-200 border-opacity-60 md:border-opacity-80 w-min p-3 px-6 rounded-full">
-        <li> <a href="/">Home</a> </li>
-        <li> <a href="/about">About</a> </li>
-        <li> <a href="/work">Work</a> </li>
-        <li> <a href="/books">Books</a> </li>
-        <li> <a href="/contact">Contact</a> </li>
-      </ul>
-    </div>
-   
+
     <!--HEADER   
     <div class="header ">
         <ul class="flex flex-row justify-between m-4">
