@@ -1,38 +1,48 @@
-# create-svelte
+# Minimal Personal Portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Welcome to the Minimal Personal Portfolio repository! This is a simple and clean portfolio template designed for showcasing your personal projects and achievements.
 
-## Creating a project
+## Technologies and Tools
 
-If you're seeing this, you've probably already done this step. Congrats!
+- HTML5
+- CSS3
+- JavaScript
+- [Bootstrap](https://getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Getting Started
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Prerequisites
 
-## Developing
+Make sure you have the following installed:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Web browser (Chrome, Firefox, Safari, etc.)
 
-```bash
-npm run dev
+### Installation
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. Clone the repository:
 
-## Building
+   ```bash
+   git clone https://github.com/NotMugil/minimal-personal-portfolio.git
+   ```
+Navigate to the project directory:
 
-To create a production version of your app:
+bash
+Copy code
+cd minimal-personal-portfolio
+Open index.html in your preferred web browser.
 
-```bash
-npm run build
-```
+Customize the content in index.html to match your personal information, projects, and achievements.
 
-You can preview the production build with `npm run preview`.
+## Contributions
+Contributions are welcome! If you find any bugs, have suggestions, or want to improve the project, feel free to open an issue or submit a pull request.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Fork the repository.
+Create a new branch for your feature/bugfix: git checkout -b feature-name.
+Make your changes and commit them: git commit -m 'Description of changes'.
+Push to the branch: git push origin feature-name.
+Open a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
