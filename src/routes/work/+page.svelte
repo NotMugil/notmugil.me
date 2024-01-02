@@ -1,3 +1,6 @@
+<script>
+	import Workgrid from "$lib/components/workgrid/workgrid.svelte";
+</script>
 <!----------------------WORK------------------------>
 <div class="flex flex-col max-w-screen-md justify-center mx-auto font-inter">
 
@@ -11,27 +14,7 @@
 
   <!--WORKS-->
   <div class="mx-4 md:mx-8 lg:mx-0 mt-2 md:mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div class="flex flex-col justify-between rounded-lg min-w-full bg-[#fefffe]  h-full min-h-64 md:min-h-72 w-8/12 backdrop-blur-lg border border-gray-200 border-opacity-60">
-          <div><p class="mx-4 py-3 text-sm font-medium font-inter text-[#666]">Mahathaan</p></div>
-          <div><p class="mx-4 py-3 text-sm font-regular text-[#666]">Mahathaan</p></div>
-      </div>
-      <div class="flex flex-col justify-between rounded-lg min-w-full bg-[#fefffe]  h-full min-h-64 md:min-h-72 w-8/12 backdrop-blur-lg border border-gray-200 border-opacity-60">
-          <div><p class="mx-4 py-3 text-sm font-medium font-inter text-[#666]">Mahathaan</p></div>
-          <div><p class="mx-4 py-3 text-sm font-regular text-[#666]">Mahathaan</p></div>
-      </div>
-      <div class="flex flex-col justify-between rounded-lg min-w-full bg-[#fefffe]  h-full min-h-64 md:min-h-72 w-8/12 backdrop-blur-lg border border-gray-200 border-opacity-60">
-          <div><p class="mx-4 py-3 text-sm font-medium font-inter text-[#666]">Mahathaan</p></div>
-          <div><p class="mx-4 py-3 text-sm font-regular text-[#666]">Mahathaan</p></div>
-      </div>
-      <div class="flex flex-col justify-between rounded-lg min-w-full bg-[#fefffe]  h-full min-h-64 md:min-h-72 w-8/12 backdrop-blur-lg border border-gray-200 border-opacity-60">
-          <div><p class="mx-4 py-3 text-sm font-medium font-inter text-[#666]">Mahathaan</p></div>
-          <div><p class="mx-4 py-3 text-sm font-regular text-[#666]">Mahathaan</p></div>
-      </div>
-      <div class="flex flex-col justify-between rounded-lg min-w-full bg-[#fefffe]  h-full min-h-64 md:min-h-72 w-8/12 backdrop-blur-lg border border-gray-200 border-opacity-60">
-          <div><p class="mx-4 py-3 text-sm font-medium font-inter text-[#666]">Mahathaan</p></div>
-          <div><p class="mx-4 py-3 text-sm font-regular text-[#666]">Mahathaan</p></div>
-      </div>
-
+    <Workgrid />
   </div>
 
 </div>
