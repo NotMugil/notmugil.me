@@ -16,7 +16,7 @@ Welcome to the Minimal Personal Portfolio repository! This is a simple and clean
 
 Make sure you have the following installed:
 
-- Web browser (Chrome, Firefox, Safari, etc.)
+- Node.js (version >= 16.0.0)
 
 ### Installation
 
@@ -25,14 +25,14 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/NotMugil/minimal-personal-portfolio.git
    ```
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-bash
-Copy code
+```bash
 cd minimal-personal-portfolio
-Open index.html in your preferred web browser.
+```
+3. Open index.html in your preferred web browser.
 
-Customize the content in index.html to match your personal information, projects, and achievements.
+4. Customize the content in index.html to match your personal information, projects, and achievements.
 
 ## Contributions
 Contributions are welcome! If you find any bugs, have suggestions, or want to improve the project, feel free to open an issue or submit a pull request.
