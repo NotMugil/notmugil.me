@@ -11,6 +11,6 @@
     <p class="text-small lg:text-p font-medium py-4">What I'm reading, what I've read and what I hope to read next. Recommendations are always welcome!</p>
   </div>
 
-  <div class="container mx-auto p-8 md:p-4">
+  <div class="container mx-auto p-8 md:p-4 lg:p-0">
     <BookGrid />
   </div>

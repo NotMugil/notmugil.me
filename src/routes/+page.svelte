@@ -24,7 +24,7 @@
 
 
     <!--WORKS-->
-    <h1 class="mx-4 md:mx-2 font-satoshi font-semibold opacity-80 text-md md:text-lg mt-6">Selected Works</h1>
+    <h1 class="mx-4 md:mx-2 font-satoshi font-semibold opacity-80 text-md md:text-lg mt-6">Featured projects</h1>
             
     <div class="mx-4 md:mx-8 lg:mx-0 mt-2 md:mt-4 grid grid-cols-1 md:grid-cols-2 gap-8">
         <Workgrid />
