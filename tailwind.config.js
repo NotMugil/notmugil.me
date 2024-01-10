@@ -19,11 +19,15 @@ export default {
         'small': '0.833rem',
         'xsmall': '0.694rem'
       },
-    }
-
-
+      colors: {
+        'read': '#1d8955',
+				'toread': '#b81414',
+				'reading': '#e5e619'
+      },
   },
   plugins: [
     require('tailwindcss-filters'),
   ]
+
+}
 };
