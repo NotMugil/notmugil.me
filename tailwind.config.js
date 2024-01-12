@@ -21,7 +21,7 @@ export default {
       },
       colors: {
         'read': '#1d8955',
-				'toread': '#b81414',
+				'toread': '#ad3b3b',
 				'reading': '#e5e619'
       },
   },

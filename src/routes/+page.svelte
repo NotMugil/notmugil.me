@@ -5,7 +5,10 @@
 	import Navbar from '$lib/components/navbar.svelte';
 </script>
 
-<Navbar />
+<div class="flex flex-col max-w-screen-md justify-around mx-auto">
+	<Navbar />
+</div>
+
 <Hero />
 <Featured />
 <Footer />

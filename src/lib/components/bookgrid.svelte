@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { books } from '$lib/data/books';
-	import { onMount, afterUpdate } from 'svelte';
+	import { onMount } from 'svelte';
 
 	let selectedLabel: string = 'all';
 
@@ -14,7 +14,7 @@
 	}
 	}
 
-	onMount(afterUpdate(updateFilteredBooks));
+	onMount(updateFilteredBooks);
 
 	function getLabelColor(label: string) {
 		return label === 'read'
@@ -32,36 +32,36 @@
 		: label === 'reading'
 		? 'border-[#b2b34d]'
 		: label === 'to-read'
-		? 'border-[#983434]'
+		? 'border-[#832d2d]'
 		: '';
   	}
 
 </script>
 
 <!-- Filter buttons -->
-<div class="flex mb-4 gap-4">
+<div class="flex mb-1 md:mb-4 mx-4 md:mx-8 lg:mx-0 gap-4 text-xsmall md:text-base">
 	<button
-	  class={`border-2 p-2 px-4 rounded ${selectedLabel === 'all' ? 'bg-gray-100' : ''}`}
+	  class={`border-2 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'all' ? 'bg-gray-100' : ''}`}
 	  on:click={() => { selectedLabel = 'all'; updateFilteredBooks(); }}
 	>All</button>
   
 	<button
-	  class={`border-2 p-2 px-4 rounded ${selectedLabel === 'read' ? 'bg-gray-100' : ''}`}
+	  class={`border-2 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'read' ? 'bg-gray-100' : ''}`}
 	  on:click={() => { selectedLabel = 'read'; updateFilteredBooks(); }}
 	>Read</button>
   
 	<button
-	  class={`border-2 p-2 px-4 rounded ${selectedLabel === 'reading' ? 'bg-gray-100' : ''}`}
+	  class={`border-2 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'reading' ? 'bg-gray-100' : ''}`}
 	  on:click={() => { selectedLabel = 'reading'; updateFilteredBooks(); }}
 	>Reading</button>
   
 	<button
-	  class={`border-2 p-2 px-4 rounded ${selectedLabel === 'to-read' ? 'bg-gray-100' : ''}`}
+	  class={`border-2 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'to-read' ? 'bg-gray-100' : ''}`}
 	  on:click={() => { selectedLabel = 'to-read'; updateFilteredBooks(); }}
 	>To Read</button>
   </div>
   
-  <div class="mx-auto p-8 md:p-4 lg:p-0">
+  <div class="mx-auto p-4 md:p-8 lg:p-0">
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 	  {#each filteredBooks as book}
 			<div
