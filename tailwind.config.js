@@ -20,8 +20,9 @@ export default {
         'xsmall': '0.694rem'
       },
       colors: {
+        'pwhite': '#fefffe',
         'read': '#1d8955',
-				'toread': '#ad3b3b',
+				'toread': '#8a62b7',
 				'reading': '#e5e619'
       },
   },

@@ -7,7 +7,8 @@ export const books = [
         author: "Latha",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1625049514i/58459453.jpg',
         label: 'reading',
-        genre: 'non-fiction, self-help'
+        genre: 'non-fiction, self-help',
+        link: 'https://www.goodreads.com/book/show/58459453-kazhivarai-irukkai'
     },
 
     {
@@ -15,7 +16,8 @@ export const books = [
         author: "Daniel Kahneman",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1317793965i/11468377.jpg',
         label: 'reading',
-        genre: 'non-fiction, psychology'
+        genre: 'non-fiction, psychology',
+        link: 'https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow'
     },
 
     {
@@ -23,7 +25,8 @@ export const books = [
         author: 'Holly Jackson',
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545494980i/40916679.jpg',
         label: 'read',
-        genre: 'fiction, mystery thriller, crime'
+        genre: 'fiction, mystery thriller, crime',
+        link: 'https://www.goodreads.com/book/show/40916679-a-good-girl-s-guide-to-murder'
     },
 
     {
@@ -31,7 +34,8 @@ export const books = [
         author: 'James Clear',
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg',
         label: 'read',
-        genre: 'non-fiction, self-help'
+        genre: 'non-fiction, self-help',
+        link: 'https://www.goodreads.com/book/show/40121378-atomic-habits'
     },
 
     {
@@ -39,7 +43,8 @@ export const books = [
         author: 'Agatha Christie',
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1486131451i/853510.jpg',
         label: 'read',
-        genre: 'fiction, mystery thriller, crime'
+        genre: 'fiction, mystery thriller, crime',
+        link: 'https://www.goodreads.com/book/show/853510.Murder_on_the_Orient_Express'
     },
 
     {
@@ -47,7 +52,8 @@ export const books = [
         author: "Colleen Hoover",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1688011813i/27362503.jpg',
         label: 'read',
-        genre: 'fiction, romance'
+        genre: 'fiction, romance',
+        link: 'https://www.goodreads.com/book/show/27362503-it-ends-with-us'
     },
 
     {
@@ -55,7 +61,8 @@ export const books = [
         author: "Colleen Hoover",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1644605295i/60393672.jpg',
         label: 'read',
-        genre: 'fiction, romance'
+        genre: 'fiction, romance',
+        link: 'https://www.goodreads.com/book/show/60393672-it-starts-with-us'
     },
 
     {
@@ -63,7 +70,8 @@ export const books = [
         author: "Robin Sharma",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1173447069i/289029.jpg',
         label: 'read',
-        genre: 'non-fiction, self-help'
+        genre: 'non-fiction, self-help',
+        link: 'https://www.goodreads.com/book/show/289029.Who_Will_Cry_When_You_Die_'
     },
 
     {
@@ -71,7 +79,8 @@ export const books = [
         author: "Robin Sharma",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388189325i/43877.jpg',
         label: 'read',
-        genre: 'non-fiction, self-help'
+        genre: 'non-fiction, self-help',
+        link: 'https://www.goodreads.com/book/show/43877.The_Monk_Who_Sold_His_Ferrari'
     },
 
     {
@@ -79,7 +88,8 @@ export const books = [
         author: "Rupi Kaur",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1491595510i/23513349.jpg',
         label: 'read',
-        genre: 'poetry, fiction'
+        genre: 'poetry, fiction',
+        link: 'https://www.goodreads.com/book/show/23513349-milk-and-honey'
     },
 
     {
@@ -87,15 +97,8 @@ export const books = [
         author: "Taylor Jenkins Reid",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1664458703i/32620332.jpg',
         label: 'read',
-        genre: 'fiction, romance'
-    },
-
-    {
-        title: "Ikigai: The Japanese Secret to a Long and Happy Life",
-        author: "Héctor García & Francesc Miralles",
-        cover: 'https://images.penguinrandomhouse.com/cover/9780143130727',
-        label: 'read',
-        genre: 'non-fiction, self-help'
+        genre: 'fiction, romance',
+        link: 'https://www.goodreads.com/book/show/32620332-the-seven-husbands-of-evelyn-hugo'
     },
 
     {
@@ -103,7 +106,17 @@ export const books = [
         author: "Mark Manson",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465761302i/28257707.jpg',
         label: 'read',
-        genre: 'non-fiction, self-help'
+        genre: 'non-fiction, self-help',
+        link: 'https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck'
+    },
+
+    {
+        title: "Ikigai: The Japanese Secret to a Long and Happy Life",
+        author: "Héctor García & Francesc Miralles",
+        cover: 'https://images.penguinrandomhouse.com/cover/9780143130727',
+        label: 'read',
+        genre: 'non-fiction, self-help',
+        link: 'https://www.goodreads.com/book/show/39995046-ikigai'
     },
 
     {
@@ -111,24 +124,30 @@ export const books = [
         author: "Periyar E.V. Ramasamy",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1600563535i/55381168.jpg',
         label: 'to-read',
-        genre: 'non-fiction, feminism'
+        genre: 'non-fiction, feminism',
+        link: 'https://www.goodreads.com/book/show/55381168-why-women-got-enslaved'
     },
 
-    {
-        title: "Surrounded by Idiots",
-        author: "Thomas Erikson",
-        cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1583763517i/39101777.jpg',
-        label: 'to-read',
-        genre: 'non-fiction, psychology'
-    },
-
+    
     {
         title: "The Design of Everyday Things",
         author: "Donald A. Norman",
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442460745i/840.jpg',
         label: 'to-read',
-        genre: 'non-fiction, design'
+        genre: 'non-fiction, design',
+        link: 'https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things'
     },
+
+    {
+        title: "To Kill a Mockingbird",
+        author: 'Harper Lee',
+        cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553383690i/2657.jpg',
+        label: 'to-read',
+        genre: 'Fiction, classics',
+        link: 'https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird'
+    },
+
+    
 ];
 
 

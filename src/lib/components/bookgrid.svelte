@@ -32,7 +32,7 @@
 		: label === 'reading'
 		? 'border-[#b2b34d]'
 		: label === 'to-read'
-		? 'border-[#832d2d]'
+		? 'border-[#593a7c]'
 		: '';
   	}
 
@@ -64,9 +64,8 @@
   <div class="mx-auto p-4 md:p-8 lg:p-0">
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 	  {#each filteredBooks as book}
-			<div
-				class="p-4 rounded-lg backdrop-blur-lg border border-gray-200 border-opacity-60 bg-[#fefefe] font-satoshi"
-			>
+		<a href={book.link} target="_blank" class="p-4 rounded-lg backdrop-blur-lg border border-gray-200 border-opacity-60 bg-[#fefefe] lg:scale-95 lg:hover:drop-shadow lg:hover:scale-100 lg:hover:rotate-1 lg:duration-200 lg:ease-linear font-satoshi"> 
+			<div>
 				<div class="relative w-full h-96 md:h-80 rounded-lg overflow-hidden mb-2">
 					<img
 						src={book.cover}
@@ -80,6 +79,7 @@
 				<p class="text-lg font-bold">{book.title}</p>
 				<p class="text-sm">{book.author}</p>
 			</div>
+		</a>
 		{/each}
 	</div>
 </div>
