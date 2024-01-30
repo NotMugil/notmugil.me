@@ -21,6 +21,15 @@ export const books = [
     },
 
     {
+        title: "The Devotion of Suspect X",
+        author: "Keigo Higashino",
+        cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1312051518i/8686068.jpg',
+        label: 'read',
+        genre: 'fiction, mystery thriller, crime',
+        link: 'https://www.goodreads.com/book/show/8686068-the-devotion-of-suspect-x'
+    },
+
+    {
         title: "A Good Girl's Guide to Murder",
         author: 'Holly Jackson',
         cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545494980i/40916679.jpg',
