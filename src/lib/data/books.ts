@@ -21,12 +21,12 @@ export const books = [
     },
 
     {
-        title: "The Devotion of Suspect X",
-        author: "Keigo Higashino",
-        cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1312051518i/8686068.jpg',
+        title: "Normal People",
+        author: "Sally Rooney",
+        cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIG_U6JDV9_6ZIsTnPREPsGj4CvN4CWf5Aaw&usqp=CAU',
         label: 'read',
-        genre: 'fiction, mystery thriller, crime',
-        link: 'https://www.goodreads.com/book/show/8686068-the-devotion-of-suspect-x'
+        genre: 'fiction, romance',
+        link: 'https://www.goodreads.com/book/show/41057294'
     },
 
     {
@@ -55,6 +55,16 @@ export const books = [
         genre: 'fiction, mystery thriller, crime',
         link: 'https://www.goodreads.com/book/show/853510.Murder_on_the_Orient_Express'
     },
+
+    {
+        title: "The Devotion of Suspect X",
+        author: "Keigo Higashino",
+        cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1312051518i/8686068.jpg',
+        label: 'read',
+        genre: 'fiction, mystery thriller, crime',
+        link: 'https://www.goodreads.com/book/show/8686068-the-devotion-of-suspect-x'
+    },
+
 
     {
         title: "It Ends With Us",
