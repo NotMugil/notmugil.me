@@ -24,7 +24,7 @@ export const books = [
         title: "Normal People",
         author: "Sally Rooney",
         cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIG_U6JDV9_6ZIsTnPREPsGj4CvN4CWf5Aaw&usqp=CAU',
-        label: 'read',
+        label: 'reading',
         genre: 'fiction, romance',
         link: 'https://www.goodreads.com/book/show/41057294'
     },
