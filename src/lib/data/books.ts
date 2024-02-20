@@ -2,15 +2,7 @@
 
 export const books = [
 
-    {
-        title: "Kazhivarai Irukkai",
-        author: "Latha",
-        cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1625049514i/58459453.jpg',
-        label: 'reading',
-        genre: 'non-fiction, self-help',
-        link: 'https://www.goodreads.com/book/show/58459453-kazhivarai-irukkai'
-    },
-
+    
     {
         title: "Thinking, Fast and Slow",
         author: "Daniel Kahneman",
@@ -28,6 +20,16 @@ export const books = [
         genre: 'fiction, romance',
         link: 'https://www.goodreads.com/book/show/41057294'
     },
+
+    {
+        title: "Kazhivarai Irukkai",
+        author: "Latha",
+        cover: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1625049514i/58459453.jpg',
+        label: 'read',
+        genre: 'non-fiction, self-help',
+        link: 'https://www.goodreads.com/book/show/58459453-kazhivarai-irukkai'
+    },
+
 
     {
         title: "A Good Girl's Guide to Murder",
