@@ -6,9 +6,9 @@
 	Featured projects
 </h1>
 
-<div class="mx-4 md:mx-8 lg:mx-0 mt-2 md:mt-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="mx-4 md:mx-8 lg:mx-0 mt-2 md:mt-4 grid grid-cols-1 gap-8">
 	{#each work as work}
-		<a href={work.link} target="_blank" class="flex flex-col justify-between rounded-lg min-w-full bg-[#fefffe] h-full min-h-64 md:min-h-72 w-8/12 backdrop-blur-lg border border-gray-200 border-opacity-60 lg:hover:drop-shadow lg:hover:scale-y-95 lg:hover:scale-x-95 lg:duration-200 lg:ease-linear">
+		<a href={work.link} target="_blank" class="flex flex-col justify-between rounded-lg min-w-full bg-[#fefffe] h-full min-h-64 md:min-h-72 w-8/12 backdrop-blur-lg border border-gray-200 border-opacity-60 lg:hover:drop-shadow lg:duration-200 lg:ease-linear">
 			<div>
 				<div>
 					<p class="mx-4 py-3 text-sm font-medium font-inter text-[#666]">{work.title}</p>
