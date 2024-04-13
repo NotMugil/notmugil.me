@@ -5,53 +5,70 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
     background-color: #0e0e0e;
     color: #fff;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     scroll-behavior: smooth;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://assets-global.website-files.com/63dcb6e1a80e9454b630f4c4/644af0299bc01254815ae442_noise-overlay-2.png');
+    opacity: 0.1; 
+    pointer-events: none;
+  }
+
 @media only screen and (min-width: 768px) {
     .relative .project-image {
-        transform: translateY(30px); 
+        transform: translateY(30px);
     }
 
     .relative:hover .project-image {
-        transform: translateY(1%); 
+        transform: translateY(1%);
     }
 }
 
 html.has-scroll-smooth {
-    overflow: hidden; }
-    
-    html.has-scroll-dragging {
+    overflow: hidden;
+}
+
+html.has-scroll-dragging {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; }
-    
-    .has-scroll-smooth body {
-    overflow: hidden; }
-    
-    .has-scroll-smooth [data-scroll-container] {
-    min-height: 100vh; }
-    
-    [data-scroll-direction="horizontal"] [data-scroll-container] {
+    user-select: none;
+}
+
+.has-scroll-smooth body {
+    overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+    min-height: 100vh;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-container] {
     height: 100vh;
     display: inline-block;
-    white-space: nowrap; }
-    
-    [data-scroll-direction="horizontal"] [data-scroll-section] {
+    white-space: nowrap;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-section] {
     display: inline-block;
     vertical-align: top;
     white-space: nowrap;
-    height: 100%; }
-    
-    .c-scrollbar {
+    height: 100%;
+}
+
+.c-scrollbar {
     position: absolute;
     right: 0;
     top: 0;
@@ -59,21 +76,32 @@ html.has-scroll-smooth {
     height: 100%;
     transform-origin: center right;
     transition: transform 0.3s, opacity 0.3s;
-    opacity: 0; }
-    .c-scrollbar:hover {
-        transform: scaleX(1.45); }
-    .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
-        opacity: 1; }
-    [data-scroll-direction="horizontal"] .c-scrollbar {
-        width: 100%;
-        height: 10px;
-        top: auto;
-        bottom: 0;
-        transform: scaleY(1); }
-        [data-scroll-direction="horizontal"] .c-scrollbar:hover {
-        transform: scaleY(1.3); }
-    
-    .c-scrollbar_thumb {
+    opacity: 0;
+}
+
+.c-scrollbar:hover {
+    transform: scaleX(1.45);
+}
+
+.c-scrollbar:hover,
+.has-scroll-scrolling .c-scrollbar,
+.has-scroll-dragging .c-scrollbar {
+    opacity: 1;
+}
+
+[data-scroll-direction="horizontal"] .c-scrollbar {
+    width: 100%;
+    height: 10px;
+    top: auto;
+    bottom: 0;
+    transform: scaleY(1);
+}
+
+[data-scroll-direction="horizontal"] .c-scrollbar:hover {
+    transform: scaleY(1.3);
+}
+
+.c-scrollbar_thumb {
     position: absolute;
     top: 0;
     right: 0;
@@ -83,10 +111,15 @@ html.has-scroll-smooth {
     border-radius: 10px;
     margin: 2px;
     cursor: -webkit-grab;
-    cursor: grab; }
-    .has-scroll-dragging .c-scrollbar_thumb {
-        cursor: -webkit-grabbing;
-        cursor: grabbing; }
-    [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
-        right: auto;
-        bottom: 0; }
+    cursor: grab;
+}
+
+.has-scroll-dragging .c-scrollbar_thumb {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+[data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+    right: auto;
+    bottom: 0;
+}
