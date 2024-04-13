@@ -16,7 +16,7 @@
         </div>
 
         <div class=" md:col-start-5 md:col-end-13 grid-gap col-start-1 col-end-13 mb-2 text-white">
-                <p class="opacity-70">
+                <p class="opacity-70 text-small md:text-base ">
                     An anime streaming app is a platform that offers a vast collection of Japanese animation titles, providing users with detailed information about each series or movie, including titles, release dates, genres, voice actors, plot summaries, ratings, reviews, and more. Users typically use such apps to discover new anime to watch, explore information about their favorite series, read reviews and ratings to inform their viewing choices, and engage with other anime enthusiasts through community features like forums, comment sections, and social media integration.
                 </p>
         </div>

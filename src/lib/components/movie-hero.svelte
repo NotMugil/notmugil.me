@@ -16,7 +16,7 @@
         </div>
 
         <div class=" md:col-start-5 md:col-end-13 grid-gap col-start-1 col-end-13 mb-2 text-white">
-                <p class="opacity-70">
+                <p class="opacity-70 text-small md:text-base">
                     A movie metadata website is a platform that provides comprehensive information about movies, including details such as titles, release dates, genres, cast and crew members, plot summaries, ratings, reviews, and more. Users typically visit such websites to explore information about movies they are interested in, discover new films to watch, read reviews and ratings to inform their viewing choices, and engage with other movie enthusiasts through forums or social features.
                 </p>
         </div>
