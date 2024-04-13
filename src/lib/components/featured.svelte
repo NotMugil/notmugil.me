@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { work } from '$lib/data/works';
+
 </script>
 
 <!-- <h1 class="mx-4 md:mx-2 font-satoshi font-semibold opacity-80 text-md md:text-lg mt-6">
@@ -36,7 +37,8 @@
 				<img class="project-image relative rounded-t-lg z-1 w-10/12 mt-8 self-center transform translate-y-0 transition-all duration-300 hover:-translate-y-2" 
 					src={work.cover}
 					alt={work.title} 
-					loading="lazy"
+					loading="eager"
+					decoding="async"
 				>
 				<div class="project-card-colour absolute z-0 inset-0 opacity-0"></div>
 			</a>

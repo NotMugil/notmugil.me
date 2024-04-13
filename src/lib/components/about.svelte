@@ -1,8 +1,8 @@
 <div class="mt-8 md:mt-24 mx-4 md:mx-8 lg:mx-0 font-satoshi">
-	<h1 class="text-md md:text-md font-mono">ABOUT ME</h1>
-	<h2 class="text-p lg:text-h6 font-medium text-[#666666]">
+	<h1 class="text-md md:text-sm font-normal font-inter">ABOUT ME</h1>
+	<!-- <h2 class="text-p lg:text-h6 font-medium text-[#666666]">
 		Designer, Developer, Artist, Writer and Student.
-	</h2>
+	</h2> -->
 	<!-- <p class="text-small lg:text-p font-medium py-4">
 		I am a passionate student, FOSS enthusiast, and experienced web developer proficient in HTML,
 		CSS, and JavaScript. I am constantly eager to expand my knowledge in order to stay up-to-date
