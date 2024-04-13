@@ -122,6 +122,6 @@
 		src="https://res.cloudinary.com/dimb2aadu/image/upload/v1712995348/IMG_7098_1_dvag31.jpg"
 		loading="eager"
 		alt="volunteering in gdg devfest 2023"
-		class="rounded-lg w-full h-max border border-white border-opacity-10 hover:border-opacity-50"
+		class="rounded-lg w-full h-max border border-white border-opacity-10 hover:border-opacity-50 invisible lg:visible"
 	/>
 </div>
