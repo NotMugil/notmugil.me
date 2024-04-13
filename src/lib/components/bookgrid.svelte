@@ -107,8 +107,8 @@
 						</p>
 					</div>
 					<p class="mr-2 text-small capitalize font-medium opacity-50">{book.genre}</p>
-					<p class="text-lg font-bold">{book.title}</p>
-					<p class="text-sm opacity-60">{book.author}</p>
+					<p class="text-md md:text-lg font-bold">{book.title}</p>
+					<p class="text-xsmall md:text-sm opacity-60">{book.author}</p>
 				</div>
 			</a>
 		{/each}
