@@ -8,6 +8,10 @@ export default {
         'satoshi': ['Satoshi', 'sans-serif'],
       },
 
+      boxShadow: {
+        glow: '4px 4px 4px 4px rgba(255,255,255,0.4)',
+      },
+
       fontSize : {
         'h1': '2.986rem',
         'h2': '2.488rem',

@@ -2,7 +2,7 @@
 
 export const books = [
 
-    
+
     {
         title: "Thinking, Fast and Slow",
         author: "Daniel Kahneman",
@@ -149,7 +149,7 @@ export const books = [
         link: 'https://www.goodreads.com/book/show/55381168-why-women-got-enslaved'
     },
 
-    
+
     {
         title: "The Design of Everyday Things",
         author: "Donald A. Norman",
@@ -168,7 +168,7 @@ export const books = [
         link: 'https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird'
     },
 
-    
+
 ];
 
 

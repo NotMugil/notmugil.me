@@ -26,7 +26,7 @@
 			</div>
 		</a> -->
         <div class="mb-4">
-			<a href={work.link} data-scroll-section target="_blank" class="flex flex-col relative overflow-hidden border border-white border-opacity-10 rounded-lg p-1 bg-[#1e1e1e]">
+			<a href={work.link} data-scroll-section class="flex flex-col relative overflow-hidden border border-white border-opacity-10 rounded-lg p-1 bg-[#1e1e1e]">
 				<div class="projectcard-top"></div>
 				<div class="flex ml-2 p-4 items-center h-full">
 					<div class="text-white">
