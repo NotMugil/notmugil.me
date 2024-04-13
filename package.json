@@ -40,7 +40,6 @@
 	"type": "module",
 	"dependencies": {
 		"locomotive-scroll": "^4.1.4",
-		"svelte-inview": "^4.0.2",
-		"svelte-locomotive-scroll": "^0.0.5"
+		"svelte-inview": "^4.0.2"
 	}
 }
