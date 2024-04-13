@@ -31,7 +31,7 @@
 		</div>
 	</div>
 
-	<div class="flex flex-col gap-4">
+	<div class="flex flex-col gap-4 mt-8 md:my-0">
 		<div
 			class="order-4 md:order-2 border border-white border-opacity-10 bg-[#0e0e0e] hover:drop-shadow rounded-lg p-2 border-2 border-white border-opacity-10 lg:row-span-1 lg:col-span-1"
 		>
@@ -60,7 +60,7 @@
 </div>
 
 <div
-	class="mt-12 mx-4 md:mx-8 lg:mx-0 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12 auto-rows-fr text-center"
+	class="md:mt-12 mx-4 md:mx-8 lg:mx-0 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12 auto-rows-fr text-center"
 >
 	<div class="flex flex-col gap-4">
 		<div class="bg-[#0e0e0e] rounded-lg lg:row-span-1 flex-col text-left">
@@ -118,7 +118,7 @@
 </div>
 
 <div
-	class="invisible md:visible mx-4 md:mx-8 lg:mx-0 mt-12 lg:row-span-1 border border-white border-opacity-10 bg-[#0e0e0e] hover:drop-shadow rounded-lg p-2 lg:col-span-1 lg:row-span-1 w-full h-min invisible lg:visible"
+	class="invisible md:visible mx-4 md:mx-8 lg:mx-0 md:mt-12 lg:row-span-1 border border-white border-opacity-10 bg-[#0e0e0e] hover:drop-shadow rounded-lg p-2 lg:col-span-1 lg:row-span-1 w-full h-min invisible lg:visible"
 >
 	<img
 		src="https://res.cloudinary.com/dimb2aadu/image/upload/v1712995348/IMG_7098_1_dvag31.jpg"
