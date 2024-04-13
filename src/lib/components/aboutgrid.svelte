@@ -116,7 +116,7 @@
 </div>
 
 <div
-	class="mx-4 md:mx-8 lg:mx-0 mt-12 lg:row-span-1 border border-white border-opacity-10 bg-[#0e0e0e] hover:drop-shadow rounded-lg p-2 lg:col-span-1 lg:row-span-1 w-full h-min"
+	class="invisible md:visible mx-4 md:mx-8 lg:mx-0 mt-12 lg:row-span-1 border border-white border-opacity-10 bg-[#0e0e0e] hover:drop-shadow rounded-lg p-2 lg:col-span-1 lg:row-span-1 w-full h-min"
 >
 	<img
 		src="https://res.cloudinary.com/dimb2aadu/image/upload/v1712995348/IMG_7098_1_dvag31.jpg"
