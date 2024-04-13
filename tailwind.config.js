@@ -23,7 +23,8 @@ export default {
         'pwhite': '#fefffe',
         'read': '#1d8955',
 				'toread': '#8a62b7',
-				'reading': '#e5e619'
+				'reading': '#e5e619',
+        'default': '#f2f2f2',
       },
   },
   plugins: [

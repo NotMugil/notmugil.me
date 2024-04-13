@@ -1,5 +1,5 @@
 <div class="mt-8 md:mt-24 mx-4 md:mx-8 lg:mx-0 font-satoshi">
-	<h1 class="text-md md:text-md lg:text-lg font-bold">About Me</h1>
+	<h1 class="text-md md:text-md font-mono">ABOUT ME</h1>
 	<h2 class="text-p lg:text-h6 font-medium text-[#666666]">
 		Designer, Developer, Artist, Writer and Student.
 	</h2>
