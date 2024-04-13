@@ -41,32 +41,32 @@
 <!-- Filter buttons -->
 <div class="flex mb-1 md:mb-4 mx-4 md:mx-8 lg:mx-0 gap-4 text-xsmall md:text-base">
 	<button
-	  class={`border-2 border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'all' ? 'bg-[#1e1e1e]' : ''}`}
+	  class={`border border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'all' ? 'bg-[#1e1e1e]' : ''}`}
 	  on:click={() => { selectedLabel = 'all'; updateFilteredBooks(); }}
 	>All</button>
   
 	<button
-	  class={`border-2 border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'read' ? 'bg-[#1e1e1e]' : ''}`}
+	  class={`border border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'read' ? 'bg-[#1e1e1e]' : ''}`}
 	  on:click={() => { selectedLabel = 'read'; updateFilteredBooks(); }}
 	>Read</button>
   
 	<button
-	  class={`border-2 border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'reading' ? 'bg-[#1e1e1e]' : ''}`}
+	  class={`border border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'reading' ? 'bg-[#1e1e1e]' : ''}`}
 	  on:click={() => { selectedLabel = 'reading'; updateFilteredBooks(); }}
 	>Reading</button>
   
 	<button
-	  class={`border-2 border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'to-read' ? 'bg-[#1e1e1e]' : ''}`}
+	  class={`border border-white border-opacity-10 p-1 px-2 md:p-2 md:px-4 rounded ${selectedLabel === 'to-read' ? 'bg-[#1e1e1e]' : ''}`}
 	  on:click={() => { selectedLabel = 'to-read'; updateFilteredBooks(); }}
 	>To Read</button>
   </div>
   
   <div class="mx-auto p-4 md:p-8 lg:p-0">
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-2">
 	  {#each filteredBooks as book}
 		<a href={book.link} target="_blank" class="p-4 rounded-lg backdrop-blur-lg border border-white border-opacity-10 bg-[#0e0e0e] lg:hover:bg-[#1e1e1e] lg:scale-95 lg:hover:drop-shadow lg:hover:scale-100 lg:hover:rotate-1 lg:duration-200 lg:ease-linear font-satoshi"> 
 			<div>
-				<div class="relative w-full h-96 md:h-80 rounded-lg overflow-hidden mb-2">
+				<div class="relative w-full aspect-w-2 aspect-h-3 rounded-lg overflow-hidden mb-2">
 					<img
 						src={book.cover}
 						alt={book.title}
@@ -80,6 +80,6 @@
 				<p class="text-sm opacity-60">{book.author}</p>
 			</div>
 		</a>
-		{/each}
+	  {/each}
 	</div>
 </div>

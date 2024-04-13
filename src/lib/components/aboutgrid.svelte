@@ -21,11 +21,12 @@
 		<div
 			class="order-4 border border-white border-opacity-10 bg-[#0e0e0e] hover:drop-shadow rounded-lg p-2 border-2 border-white border-opacity-10 lg:row-span-1 lg:col-span-1"
 		>
+			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
 				src="https://res.cloudinary.com/dimb2aadu/image/upload/v1713002448/IMG_7060_owekvb.jpg"
 				loading="eager"
 				alt="perfil image of me"
-				class="rounded-lg border border-white border-opacity-10 hover:border-opacity-50 filter hue-rotate saturate"
+				class="rounded-lg border border-white border-opacity-10 hover:border-opacity-20 filter hue-rotate saturate"
 			/>
 		</div>
 	</div>
@@ -34,11 +35,12 @@
 		<div
 			class="order-4 md:order-2 border border-white border-opacity-10 bg-[#0e0e0e] hover:drop-shadow rounded-lg p-2 border-2 border-white border-opacity-10 lg:row-span-1 lg:col-span-1"
 		>
+			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
 				src="https://res.cloudinary.com/dimb2aadu/image/upload/v1713002623/IMG_2058_bmixte.jpg"
 				loading="eager"
 				alt="image of a messy book stall"
-				class="rounded-lg filter border border-white border-opacity-10 hover:border-opacity-50 hue-rotate saturate"
+				class="rounded-lg filter border border-white border-opacity-10 hover:border-opacity-20 hue-rotate saturate"
 			/>
 		</div>
 
@@ -109,7 +111,7 @@
 				src="https://res.cloudinary.com/dimb2aadu/image/upload/v1713003072/IMG_8577_ztekkb.jpg"
 				loading="eager"
 				alt="volunteering in gdg devfest 2023"
-				class="rounded-lg border border-white border-opacity-10 hover:border-opacity-50 filter hue-rotate saturate"
+				class="rounded-lg border border-white border-opacity-10 hover:border-opacity-20 filter hue-rotate saturate"
 			/>
 		</div>
 	</div>
@@ -122,6 +124,6 @@
 		src="https://res.cloudinary.com/dimb2aadu/image/upload/v1712995348/IMG_7098_1_dvag31.jpg"
 		loading="eager"
 		alt="volunteering in gdg devfest 2023"
-		class="rounded-lg w-full h-max border border-white border-opacity-10 hover:border-opacity-50"
+		class="rounded-lg w-full h-max border border-white border-opacity-10 hover:border-opacity-20"
 	/>
 </div>

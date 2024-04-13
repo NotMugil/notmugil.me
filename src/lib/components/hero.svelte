@@ -1,6 +1,6 @@
 <div class="flex flex-row ">
 	<div class="flex flex-col mt-8 md:mt-24 mx-4 md:mx-8 lg:mx-0 font-satoshi overflow-x-hidden">
-		<h1 class="text-md md:text-md font-mono cursor-default">MUGILAN S</h1>
+		<h1 class="text-md md:text-sm font-inter font-normal cursor-default">MUGILAN S</h1>
 		<h2 class="text-p lg:text-h6 font-medium text-[#666666] md:max-w-[40%] cursor-default">Designer Based in Chennai Crafting Interfaces One Website at a Time</h2>
 	</div>
 	<div class="flex flex-col invisible md:visible mt-8 md:mt-24 mx-4 md:mx-8 lg:mx-0 font-satoshi overflow-x-hidden">
