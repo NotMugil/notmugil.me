@@ -4,7 +4,10 @@
 </script>
 
 <Hero />
-<Featured />
+<div class="mt-16">
+	<Featured />
+</div>
+
 
 
 
