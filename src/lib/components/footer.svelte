@@ -1,4 +1,4 @@
-<div class="invisible justify-between my-8 border-top flex md:visible max-w-screen-md mx-auto">
+<div class="flex justify-between my-8 mx-auto max-w-screen-lg">
 	<div>
 		<h1 class="text-base justify-center text-center pt-6 pb-2 text-white">
 			Copyright © 2024 NotMugil

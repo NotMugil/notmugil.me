@@ -1,4 +1,4 @@
-<div class="flex flex-row">
+<div class="flex flex-row justify-between">
 	<div class="flex flex-col mt-8 md:mt-24 mx-4 md:mx-8 lg:mx-0 font-satoshi overflow-x-hidden">
 		<h1 class="text-md md:text-sm font-inter font-normal cursor-default">MUGILAN S</h1>
 		<h2 class="text-p lg:text-h6 font-medium text-[#666666] md:max-w-[40%] cursor-default">

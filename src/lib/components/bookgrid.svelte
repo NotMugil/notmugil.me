@@ -81,7 +81,7 @@
 </div>
 
 <div class="mx-auto p-4 md:p-8 lg:p-0">
-	<div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-2">
+	<div class="grid grid-cols-2 md:grid-cols-5 px-4 gap-4 md:gap-2 overflow-hidden">
 		{#each filteredBooks as book}
 			<a
 				href={book.link}

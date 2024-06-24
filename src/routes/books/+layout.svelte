@@ -5,7 +5,7 @@
 </script>
 
 <div class="font-satoshi"><Navbar /></div>
-<div class="flex flex-col max-w-screen-md justify-around mx-auto font-inter overflow-x-hidden">
+<div class="flex flex-col max-w-screen-lg justify-around mx-auto font-inter overflow-x-hidden">
 	<slot />
 </div>
 <div class="invisible md:visible border-t-2 border-white border-opacity-10 mt-8">
