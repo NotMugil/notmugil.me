@@ -34,6 +34,8 @@
                    <span class="font-semibold text-secondary text-xsmall lg:text-p text-white" on:click={copyEmail}>
                      {#if alertMessage === 'Copied to clipboard'}
                          Copied to clipboard
+                     {:else}
+                         Copy email
                      {/if}
                    </span>
                 </div>
