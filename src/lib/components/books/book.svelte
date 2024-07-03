@@ -78,7 +78,6 @@ $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => se
   
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
       {#each filteredBooks as book}
-        <a href={book.link} target="_blank" rel="noopener noreferrer">
           <div
             class="max-w-xs lg:min-w-lg flex flex-row lg:flex-col rounded overflow-hidden shadow-lg bg-dark font-satoshi h-full p-2 relative"
           >
@@ -103,7 +102,6 @@ $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => se
               </div>
             </div>
           </div>
-        </a>
       {/each}
     </div>
   
