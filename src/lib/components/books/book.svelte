@@ -11,10 +11,8 @@
 	 */
     let selectedGenres = [];
   
-    // Filter books based on selected genres
-    $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => selectedGenres.every(genre => book.genres.includes(genre)));
+$: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => selectedGenres.every(genre => book.genres.includes(genre)));
   
-    // Handle genre selection
     /**
 	 * @param {string} genre
 	 */
@@ -26,18 +24,16 @@
       }
     }
   
-    // Clear all filters
     function clearFilters() {
       selectedGenres = [];
     }
   
-    // Functions to show and hide preview image
     let previewUrl = '';
     let previewVisible = false;
     /**
 	 * @type {{ rating: any; } | null}
 	 */
-    let currentBook = null; // To store the current book being hovered over
+    let currentBook = null; 
   
     /**
 	 * @param {MouseEvent & { currentTarget: EventTarget & HTMLDivElement; }} event

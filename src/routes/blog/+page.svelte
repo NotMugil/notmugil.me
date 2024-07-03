@@ -1,10 +1,10 @@
 <script lang="ts">
 
     export let data
-
+    
     function formatDate(dateString: string) {
-        const options = { day: '2-digit', month: 'short', year: 'numeric' };
-        return new Date(dateString).toLocaleDateString('en-UK', options);
+        const options: Intl.DateTimeFormatOptions = { day: '2-digit', month: 'short', year: '2-digit' };
+        return new Date(dateString).toLocaleDateString('en-US', options);
     }
 
 </script>
