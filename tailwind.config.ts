@@ -5,7 +5,7 @@ export default {
     theme: {
             fontFamily: { 
                 'primary': ['Satoshi', 'sans-serif'],
-                'secondary': ['Merriweather', 'serif'],
+                'secondary': ['Fraunces', 'serif'],
             },
             fontSize : {
                 'h1': '3.8125rem',
