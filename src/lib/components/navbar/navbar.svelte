@@ -14,10 +14,10 @@
         </div>
         <div class="text-secondary pl-2 lg:flex lg:align-center">
             <ul class="nav-li hidden lg:flex lg:flex-nowrap lg:gap-4 mb-4 lg:mb- lg:my-auto lg:align-center mx-1 font-primary font-regular transition-all duration-300"> 
-                <li class="p-1 hover:text-accent "><a href="about" class="">about</a></li>
+                <li class="p-1 hover:text-accent "><a href="/about" class="">about</a></li>
                 <li class="p-1 hover:text-accent "><a href="/" class="">projects</a></li>
-                <li class="p-1 hover:text-accent "><a href="/" class="">blog</a></li>
-                <li class="p-1 hover:text-accent truncate"><a href="bookshelf" class="">bookshelf</a></li>
+                <li class="p-1 hover:text-accent "><a href="/blog" class="">blog</a></li>
+                <li class="p-1 hover:text-accent truncate"><a href="/bookshelf" class="">bookshelf</a></li>
                 <span class="hover:text-accent hidden lg:flex lg:align-center lg:my-auto">
                     <li class="p-2">
                      <a href="https://github.com/NotMugil" target="_blank" class="">

@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
     // @ts-ignore
     import { onMount } from 'svelte';
     import books from '../../data/books';
