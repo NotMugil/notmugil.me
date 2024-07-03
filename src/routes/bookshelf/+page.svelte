@@ -9,8 +9,8 @@
 <div class="max-w-screen-lg flex mx-auto">
     <div class="mx-8 w-screen-lg lg:w-full">
         <div class="flex flex-col lg:w-full">
-            <p class="text-primary text-h3 font-semibold my-4 lg:w-full">Bookshelf.</p>
-            <p class="text-secondary text-small font-regular">What I'm reading, what I've read and what I hope to read next. Recommendations are always welcome!</p>
+            <p class="text-primary font-primary text-h3 font-semibold my-4 lg:w-full">Bookshelf.</p>
+            <p class="text-secondary font-primary text-small font-regular">What I'm reading, what I've read and what I hope to read next. Recommendations are always welcome!</p>
             
             <Book />
 

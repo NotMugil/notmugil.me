@@ -58,7 +58,7 @@ $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => se
       <div class="flex flex-wrap gap-2">
         {#each genres as genre}
           <button
-            class="px-2 py-1 text-small font-satoshi font-semibold rounded bg-dark text-primary focus:outline-none"
+            class="px-2 py-1 text-p font-primary font-medium rounded bg-dark text-primary focus:outline-none"
             class:selected={selectedGenres.includes(genre)}
             on:click={() => handleGenreToggle(genre)}
           >
@@ -69,7 +69,7 @@ $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => se
     </div>
   
     <button
-      class="px-2 py-1 text-small rounded bg-error-fg text-primary hover:bg-error-fg hover:bg-opacity-60 hover:text-opacity-60"
+      class="px-2 py-1 text-small font-primary rounded bg-error-fg text-primary hover:bg-error-fg hover:bg-opacity-60 hover:text-opacity-60"
       on:click={clearFilters}
       disabled={selectedGenres.length === 0}
     >
@@ -79,7 +79,7 @@ $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => se
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
       {#each filteredBooks as book}
           <div
-            class="max-w-xs lg:min-w-lg flex flex-row lg:flex-col rounded overflow-hidden shadow-lg bg-dark font-satoshi h-full p-2 relative"
+            class="max-w-xs lg:min-w-lg flex flex-row lg:flex-col rounded overflow-hidden shadow-lg bg-dark font-primary h-full p-2 relative"
           >
           <!-- svelte-ignore a11y-no-static-element-interactions -->
           <div on:mouseenter={(event) => showPreview(event, book)} on:mouseleave={hidePreview}>
@@ -90,7 +90,7 @@ $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => se
             >
           </div>
         
-            <div class="px-3 py-2 flex flex-col justify-between">
+            <div class="px-3 py-2 flex flex-col justify-between font-primary">
               <div class="mb-1">
                 <p class="text-primary font-semibold">{book.title}</p>
                 <p class="text-primary font-regular text-small mb-1 text-opacity-80">by {book.author}</p>
@@ -113,8 +113,8 @@ $: filteredBooks = selectedGenres.length === 0 ? books : books.filter(book => se
       <!-- svelte-ignore a11y-img-redundant-alt -->
       <img src={previewUrl} alt="Preview Image" class="max-w-60 rounded">
       {#if currentBook}
-        <p class="text-white font-satoshi text-p mt-4">{currentBook.rating}</p>
-        <blockquote class="text-white font-satoshi m-2">{currentBook.review}</blockquote>
+        <p class="text-white font-primary text-p mt-4">{currentBook.rating}</p>
+        <blockquote class="text-white font-primary m-2">{currentBook.review}</blockquote>
       {/if}
     </div>
   </div>

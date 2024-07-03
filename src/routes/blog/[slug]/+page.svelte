@@ -23,7 +23,7 @@
         <div class="flex flex-col lg:w-full">
                         
             <article>
-                <hgroup>
+                <hgroup class="font-primary">
                     <h1 class="text-primary text-h3 font-semibold my-4 capitalize">{data.meta.title}</h1>
                     <h2 class="text-secondary text-small font-regular italic border-b w-max pb-4 border-secondary border-opacity-30">Posted on {formatDate(data.meta.date)}</h2>
                 </hgroup>
