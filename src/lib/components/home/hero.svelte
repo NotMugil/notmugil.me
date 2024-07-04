@@ -52,12 +52,4 @@
             </div>
         </div>
     </div>
-    
-    <div class="max-w-screen-lg fixed left-0 right-0 bottom-16 flex items-left mx-auto">
-        <ul class="flex flex-row gap-6 m-8">
-            <li class="hover:text-accent hover:underline decoration-accent pb-2 underline-offset-8 decoration-dotted"><a href="https://x.com/NotMugil">Twitter/X</a></li>
-            <li class="hover:text-accent hover:underline decoration-accent pb-2 underline-offset-8 decoration-dotted"><a href="https://www.linkedin.com/in/notmugil/">LinkedIn</a></li>
-            <li class="hover:text-accent hover:underline decoration-accent pb-2 underline-offset-8 decoration-dotted"><a href="https://github.com/NotMugil">GitHub</a></li>
-        </ul>
-    </div>
 </div>

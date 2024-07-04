@@ -4,7 +4,9 @@
 </svelte:head>
 
 <script lang="ts">
-   import Hero from "$lib/components/home/hero.svelte";
+	import Socials from './../lib/components/home/socials.svelte';
+    import Hero from "$lib/components/home/hero.svelte";
 </script>
 
 <Hero />
+<Socials />
