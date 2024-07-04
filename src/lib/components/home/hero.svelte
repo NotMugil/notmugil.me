@@ -22,10 +22,11 @@
     }
  </script>
  
- <div class="max-w-screen-lg flex mx-auto my-4 lg:my-8">
+ <div class="max-w-screen-lg flex mx-auto my-4 lg:my-6">
      <div class="font-primary lg:px-4 lg:mx-0 mx-4 px-4 py-8 w-full lg:w-screen rounded-3xl backdrop-blur-md lg:h-52 relative">
          <div class="flex flex-col gap-4 lg:w-full">
-             <p class="font-secondary text-h4 lg:text-h2">Hello World!  is an example text to check whether it is enough to make the <span class="bg-dark rounded-lg py-0.5 px-2">mobile</span> banner hero fit the screen and the resolution is good.</p>   
+             <p class="font-secondary text-h3 lg:text-h2">
+				Hello Wanderer! I'm Mugilan, who designs and develops ideas into interfaces. Specialized in <span class="bg-dark rounded-lg py-0.5 px-2">Full-Stack</span> development and <span class="bg-dark rounded-lg py-0.5 px-2">UI/UX</span> Design.</p>   
              <div class="flex flex-row items-center gap-2">
                 <div class="bg-dark bg-opacity-90 backdrop-blur px-4 py-2 flex items-center flex-row gap-2 rounded-full cursor-pointer">
                    <span class="text-white">
